@@ -31,7 +31,6 @@ export default function App() {
         // scroll yaparken item'lar yer değiştirirse, scroll pozisyonunu korur
         // mesela bir chat uygukamasında yeni mesaj geldiğinde scroll pozisyonu korunur
         // fakat ustteki mesajların pozisyonu değişirse istenilen sonuç alınmayabilir
-        // maintainVisibleContentPosition={true}
         minimumZoomScale={0.5} // default 1
         maximumZoomScale={3} // foto galeri gibi zoom yapılabilen bir uygulamada kullanılabilir, default 1
       >
